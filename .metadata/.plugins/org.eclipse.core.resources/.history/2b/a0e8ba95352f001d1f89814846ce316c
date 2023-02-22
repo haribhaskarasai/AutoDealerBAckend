@@ -1,0 +1,35 @@
+package com.BatchProcessing.scheduler;
+
+import java.util.Date;
+
+import org.springframework.batch.core.Job;
+import org.springframework.batch.core.launch.JobLauncher;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
+
+public class scheduler {
+	@Autowired
+	private JobLauncher jobLauncher;
+
+	@Autowired
+	private Job job;
+
+	@Scheduled(fixedRate = 5000)
+	public void importCsvToDBJob() {
+		System.out.println("hari");
+		
+	}
+
+	@Scheduled(fixedRate = 5000)
+	public void add2DBJob() {
+		
+		System.out.println("add service call in " + new Date().toString());
+	}
+
+	@Scheduled(cron = "0/15 * * * * *")
+	public void fetchDBJob() {
+		
+		System.out.println("fetch service call in " + new Date().toString());
+		
+	}
+}

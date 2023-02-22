@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=D\:\\auditDelarAppBackend\\gs-scheduling-tasks\\.git;D\:\\auditDelarAppBackend\\AutoDealerAuditBackend\\.git;D\:\\auditDelarAppBackend\\schedulers\\spring-boot-scheduler\\.git;D\:\\schedulers\\spring-boot-scheduler\\.git;
+GitRepositoriesView.GitDirectories.relative=gs-scheduling-tasks\\.git;AutoDealerAuditBackend\\.git;schedulers\\spring-boot-scheduler\\.git;D\:\\schedulers\\spring-boot-scheduler\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
